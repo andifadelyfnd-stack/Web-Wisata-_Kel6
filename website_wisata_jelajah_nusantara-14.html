@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jelajah Nusantara - Wisata Indonesia</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#18323a;background:#f5fbfa}
+    nav{background:#0b5966;color:white;padding:16px 8%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+    nav h2{letter-spacing:1px}
+    nav a{color:white;text-decoration:none;margin-left:22px;font-weight:bold}
+    .hero{min-height:78vh;padding:100px 8%;display:flex;align-items:center;background:linear-gradient(90deg,rgba(4,44,52,.82),rgba(4,44,52,.25)),url("https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=1600&q=80") center/cover;color:white}
+    .hero-content{max-width:650px}
+    .hero h1{font-size:clamp(40px,7vw,72px);line-height:1.05;margin-bottom:20px}
+    .hero p{font-size:20px;margin-bottom:28px}
+    .btn{display:inline-block;background:#f6b73c;color:#17333a;padding:13px 24px;border-radius:30px;text-decoration:none;font-weight:bold}
+    section{padding:70px 8%}
+    .title{text-align:center;margin-bottom:40px}
+    .title h2{font-size:34px;color:#0b5966}
+    .title p{color:#61777c;margin-top:8px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:24px}
+    .card{background:white;border-radius:18px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,.09);transition:.25s}
+    .card:hover{transform:translateY(-6px)}
+    .card img{width:100%;height:190px;object-fit:cover}
+    .card-body{padding:20px}
+    .card-body h3{color:#0b5966;margin-bottom:8px}
+    .card-body p{color:#64777b}
+    .info{background:#dff3ef}
+    .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px;text-align:center}
+    .info-box{background:white;padding:25px;border-radius:16px}
+    .info-box strong{display:block;font-size:30px;color:#0b5966}
+    .tips{background:#0b5966;color:white}
+    .tips .title h2{color:white}
+    .tips-list{max-width:800px;margin:auto;display:grid;gap:14px}
+    .tips-list div{background:rgba(255,255,255,.1);padding:16px 20px;border-radius:12px}
+    footer{background:#073d46;color:white;text-align:center;padding:25px}
+    @media(max-width:600px){nav{padding:14px 5%}nav div a{margin-left:10px;font-size:13px}.hero{padding:80px 6%}.hero p{font-size:17px}section{padding:55px 6%}}
+  </style>
+</head>
+<body>
+
+<nav>
+  <h2>🌴 Jelajah Nusantara</h2>
+  <div>
+    <a href="#destinasi">Destinasi</a>
+    <a href="#tips">Tips</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-content">
+    <h1>Liburan Seru di Indonesia</h1>
+    <p>Temukan keindahan alam, budaya, dan pengalaman tak terlupakan dari berbagai destinasi wisata Nusantara.</p>
+    <a class="btn" href="#destinasi">Jelajahi Sekarang →</a>
+  </div>
+</header>
+
+<section id="destinasi">
+  <div class="title">
+    <h2>Destinasi Pilihan</h2>
+    <p>Beberapa tempat indah yang wajib masuk daftar perjalananmu.</p>
+  </div>
+  <div class="cards">
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1516690561799-46d8f74f9abf?auto=format&fit=crop&w=900&q=80" alt="Pantai Bali">
+      <div class="card-body">
+        <h3>🏝️ Bali</h3>
+        <p>Nikmati pantai, budaya, kuliner, dan suasana tropis yang memikat.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1555400038-5f3d6b7e3f1b?auto=format&fit=crop&w=900&q=80" alt="Raja Ampat">
+      <div class="card-body">
+        <h3>🌊 Raja Ampat</h3>
+        <p>Surga kepulauan dengan laut jernih dan pemandangan bawah laut yang menakjubkan.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt="Gunung Bromo">
+      <div class="card-body">
+        <h3>🌋 Bromo</h3>
+        <p>Saksikan matahari terbit dan lanskap pegunungan yang luar biasa.</p>
+      </div>
+    </article>
+    <article class="card">
+      <img src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=900&q=80" alt="Yogyakarta">
+      <div class="card-body">
+        <h3>🏛️ Yogyakarta</h3>
+        <p>Jelajahi sejarah, seni, candi, dan keramahan khas kota budaya.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="info">
+  <div class="title">
+    <h2>Kenapa Wisata Indonesia?</h2>
+    <p>Kekayaan Nusantara selalu punya cerita untuk setiap perjalanan.</p>
+  </div>
+  <div class="info-grid">
+    <div class="info-box"><strong>17.000+</strong> pulau</div>
+    <div class="info-box"><strong>300+</strong> kelompok etnis</div>
+    <div class="info-box"><strong>1.000+</strong> destinasi menarik</div>
+  </div>
+</section>
+
+<section id="tips" class="tips">
+  <div class="title">
+    <h2>Tips Wisata</h2>
+    <p>Persiapkan perjalananmu agar lebih nyaman dan menyenangkan.</p>
+  </div>
+  <div class="tips-list">
+    <div>🎒 Bawa perlengkapan sesuai kondisi destinasi.</div>
+    <div>💧 Selalu sediakan air minum dan jaga kesehatan.</div>
+    <div>📷 Abadikan momen tanpa merusak lingkungan.</div>
+    <div>♻️ Jaga kebersihan dan hormati budaya masyarakat setempat.</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Jelajah Nusantara | Website Wisata Indonesia</p>
+</footer>
+
+</body>
+</html>
